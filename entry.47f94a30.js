@@ -18,7 +18,7 @@ module.exports="/game_of_life_bg.b53dc156.wasm";
 },{}],"PT6M":[function(require,module,exports) {
 "use strict";var e=r(require("../pkg/game_of_life.js"));function r(e){return e&&e.__esModule?e:{default:e}}module.exports=(0,e.default)(require("../pkg/game_of_life_bg.wasm"));
 },{"../pkg/wasm-loader.js":"tpYJ","../pkg/game_of_life.js":"YB1F","../pkg/game_of_life_bg.wasm":"SmHi"}],"jwVQ":[function(require,module,exports) {
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.el=o,exports.on=n,exports.off=i,exports.dpr=exports.cAF=exports.rAF=void 0;const{requestAnimationFrame:e,cancelAnimationFrame:r,devicePixelRatio:t}=window;function o(e){return document.querySelector(e)}function n(e,r){return window.addEventListener(e,r)}function i(e,r){return window.removeEventListener(e,r)}exports.dpr=t,exports.cAF=r,exports.rAF=e;
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.el=o,exports.on=n,exports.off=i,exports.dpr=exports.cAF=exports.rAF=void 0;const{requestAnimationFrame:e,cancelAnimationFrame:t,devicePixelRatio:r}=window;function o(e){const t=document.querySelector(e);if(!t)throw new Error(`Couldn't get "${e}" element`);return t}function n(e,t){return window.addEventListener(e,t)}function i(e,t){return window.removeEventListener(e,t)}exports.dpr=r,exports.cAF=t,exports.rAF=e;
 },{}],"qZBz":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.lerp=b,exports.saw=h,exports.tri=w,exports.toDegrees=y,exports.toRadians=q,exports.isFinite=exports.ππ=exports.sqrt=exports.sin=exports.round=exports.pow=exports.π=exports.min=exports.max=exports.hypot=exports.floor=exports.cos=exports.ceil=exports.atan2=exports.acos=exports.abs=void 0;const{abs:o,acos:t,atan2:s,ceil:r,cos:e,floor:p,hypot:x,max:n,min:i,PI:a,pow:c,round:u,sin:f,sqrt:l}=Math;exports.sqrt=l,exports.sin=f,exports.round=u,exports.pow=c,exports.π=a,exports.min=i,exports.max=n,exports.hypot=x,exports.floor=p,exports.cos=e,exports.ceil=r,exports.atan2=s,exports.acos=t,exports.abs=o;const d=2*a;exports.ππ=d;const{isFinite:m}=Number;function b(o,t,s){return(1-s)*o+s*t}function h(o){return o%d/a-1}function w(t){return 1-2*o(h(t))}function y(o){return 180*o/a}function q(o){return o*a/180}exports.isFinite=m;
 },{}],"erCD":[function(require,module,exports) {
@@ -43,4 +43,4 @@ Promise.all([
 });
 
 },{"./lib.rs":"PT6M","./entry.ts":"nv25"}]},{},[0], null)
-//# sourceMappingURL=/entry.0ca6b727.js.map
+//# sourceMappingURL=/entry.47f94a30.js.map
