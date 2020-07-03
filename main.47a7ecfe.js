@@ -5,4 +5,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./styles/base.css":"RYid"}],"jP6t":[function(require,module,exports) {
 "use strict";require("./main.css");
 },{"./main.css":"bGMx"}]},{},["jP6t"], null)
-//# sourceMappingURL=/main.f690045b.js.map
+//# sourceMappingURL=/main.47a7ecfe.js.map
